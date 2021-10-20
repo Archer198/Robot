@@ -60,7 +60,7 @@ public class DrivebaseSubsystem extends SubsystemBase {
     double y = (deadband(m_stick.getY())/3);
     double z = (deadband(m_stick.getZ())/3);
 
-     System.out.println("X: " + x + " Y: " + y + " Z: " + z);
+     //System.out.println("X: " + x + " Y: " + y + " Z: " + z);
 
     m_robotDrive.driveCartesian (x, y, -z);
 

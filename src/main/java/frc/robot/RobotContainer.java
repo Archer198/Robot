@@ -9,6 +9,7 @@ import edu.wpi.first.wpilibj.XboxController;
 import frc.robot.commands.ExampleCommand;
 import frc.robot.subsystems.DrivebaseSubsystem;
 import frc.robot.subsystems.ExampleSubsystem;
+import frc.robot.subsystems.Navigation;
 import frc.robot.subsystems.ProximitySubsystem;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.Subsystem;
@@ -25,6 +26,7 @@ public class RobotContainer {
   private final static DrivebaseSubsystem drivebaseSubsystem = new DrivebaseSubsystem();
   private final ExampleCommand m_autoCommand = new ExampleCommand(m_exampleSubsystem);
   private final static ProximitySubsystem m_proximitySubsystem = new ProximitySubsystem();
+  private final static Navigation navigationSubsystem = new Navigation();
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {

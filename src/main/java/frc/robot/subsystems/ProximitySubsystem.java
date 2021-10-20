@@ -25,7 +25,7 @@ public class ProximitySubsystem extends SubsystemBase {
       // This method will be called once per scheduler run
   
         //System.out.println("FrontSensor: " + m_frontSensor.getRangeInches());
-        System.out.println("RightSensor: " + m_rightSensor.getRangeInches());
+        //System.out.println("RightSensor: " + m_rightSensor.getRangeInches());
 
         
         if (m_rightSensor.getRangeInches() < 20.0) {
