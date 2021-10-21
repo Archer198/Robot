@@ -62,7 +62,7 @@ public class DrivebaseSubsystem extends SubsystemBase {
 
      //System.out.println("X: " + x + " Y: " + y + " Z: " + z);
 
-    m_robotDrive.driveCartesian (x, y, -z);
+     m_robotDrive.driveCartesian (x, y, -z);
 
     //m_robotDrive.driveCartesian(0, 0, 0);
   }
@@ -74,7 +74,7 @@ public class DrivebaseSubsystem extends SubsystemBase {
   }
 
   public void moveLeft() {
-    //m_robotDrive.driveCartesian(0, 0.5, 0);
+    m_robotDrive.driveCartesian(0.5, 0, 0);
   }
     
 }

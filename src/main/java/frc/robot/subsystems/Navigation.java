@@ -7,6 +7,7 @@ package frc.robot.subsystems;
 import edu.wpi.first.wpilibj.SPI.Port;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Toolkit.CT_Gyro;
+import frc.robot.RobotContainer;
 
 public class Navigation extends SubsystemBase {
 
@@ -25,7 +26,8 @@ public class Navigation extends SubsystemBase {
     double yaw = gyro.getYaw();
     if ((yaw > 3.0) || (yaw < -3.0)){
 
-
+      System.out.println("Yes sir its pimp chimping");
+      //RobotContainer.getDrivebaseSubsystem().moveLeft();
 
     }
 

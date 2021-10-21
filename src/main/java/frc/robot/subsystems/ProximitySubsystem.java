@@ -28,9 +28,9 @@ public class ProximitySubsystem extends SubsystemBase {
         //System.out.println("RightSensor: " + m_rightSensor.getRangeInches());
 
         
-        if (m_rightSensor.getRangeInches() < 20.0) {
-            RobotContainer.getDrivebaseSubsystem().moveLeft();
-        }
+       //  if (m_rightSensor.getRangeInches() < 20.0) {
+       //     RobotContainer.getDrivebaseSubsystem().moveLeft();
+       // }
         
 
         
