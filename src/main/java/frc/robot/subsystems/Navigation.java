@@ -17,7 +17,6 @@ public class Navigation extends SubsystemBase {
   public Navigation() {
 
      
-    
 
   }
 
